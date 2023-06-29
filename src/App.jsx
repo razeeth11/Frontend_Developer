@@ -1,5 +1,6 @@
 import "./App.css";
 import { BodyOne } from "./BodyOne";
+import { BodyThree } from "./BodyThree";
 import { BodyTwo } from "./BodyTwo";
 import { Header } from "./Header";
 
@@ -10,66 +11,20 @@ function App() {
       <BodyOne />
       <BodyTwo />
       <BodyThree />
+      <CustomerReview />
     </div>
   );
 }
 
-function BodyThree() {
+function CustomerReview() {
   return (
-    <div className="body-three">
-      <div className="body-three-title">
-        <h1>Choose your plan</h1>
+    <div className="customer-review">
+      <div className="content-review">
+        <h1>Review from customers</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's{" "}
+          industry. Lorem Ipsum has been the industry
         </p>
-      </div>
-      <div className="body-three-plan">
-      <div className="body-plan-one plan-details">
-        <p className="plan-head">Basic Plan</p>
-        <p className="plan-content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-        </p>
-        <h3>
-          $ 54 <span className="month">/month</span>
-        </h3>
-        <ul>
-          <li>Free access to video class</li>
-          <li>Free access to video class</li>
-          <li>Free access to video class</li>
-        </ul>
-        <button className="plan-button">Start Free Trial</button>
-      </div>
-      <div className="body-plan-two plan-details">
-        <p className="plan-head">Basic Plan</p>
-        <p className="plan-content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-        </p>
-        <h3>
-          $ 54 <span className="month">/month</span>
-        </h3>
-        <ul>
-          <li>Free access to video class</li>
-          <li>Free access to video class</li>
-          <li>Free access to video class</li>
-        </ul>
-        <button className="plan-button">Start Free Trial</button>
-      </div>
-      <div className="body-plan-three plan-details">
-        <p className="plan-head">Basic Plan</p>
-        <p className="plan-content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-        </p>
-        <h3>
-          $ 54 <span className="month">/month</span>
-        </h3>
-        <ul>
-          <li>Free access to video class</li>
-          <li>Free access to video class</li>
-          <li>Free access to video class</li>
-        </ul>
-        <button className="plan-button">Start Free Trial</button>
-      </div>
       </div>
     </div>
   );

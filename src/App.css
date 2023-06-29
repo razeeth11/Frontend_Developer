@@ -4,10 +4,10 @@
 
 body {
   background-image: url("public/images/gbb.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   font-family: "Inter", sans-serif;
-  overflow-x:scroll;
+  overflow-x: scroll;
 }
 
 .logo {
@@ -33,7 +33,7 @@ body {
 .body-one {
   display: flex;
   justify-content: space-between;
-  margin: 100px 150px;
+  margin: 120px 150px;
 }
 
 .marketing {
@@ -67,7 +67,7 @@ body {
   border: none;
 }
 
-.gradient-button-two{
+.gradient-button-two {
   font-size: 16px;
   font-family: Poppins;
   font-weight: 700;
@@ -86,8 +86,8 @@ body {
 }
 
 .images img {
-  width: 411px;
-  height: 231px;
+  width: 406px;
+  height: 226px;
 }
 
 .images img:nth-child(1) {
@@ -107,19 +107,19 @@ body {
   left: 50px;
 }
 
-.course{
+.course {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
   width: 180px;
   padding: 25px;
-  border: 0.5px solid var(--secondary, #7A3199);
+  border: 0.5px solid var(--secondary, #7a3199);
   border-radius: 10px;
   margin-top: 30px;
 }
 
-.body-two{
+.body-two {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,7 +128,7 @@ body {
   padding-top: 100px;
 }
 
-.body-two-one{
+.body-two-one {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -136,44 +136,131 @@ body {
   margin-top: 20px;
 }
 
-.body-two-two h1{
+.body-two-two h1 {
   font-size: 40px;
   font-weight: 700;
 }
 
-.body-two-two{
+.body-two-two {
   display: flex;
   flex-direction: column;
-  gap: 30px; 
+  gap: 30px;
   width: 367px;
 }
 
-.body-two-two p{
+.body-two-two p {
   line-height: 25px;
   width: 367px;
 }
 
-.body-two-one .course:nth-child(odd){
+.body-two-one .course:nth-child(odd) {
   position: relative;
   bottom: 20px;
 }
 
-.course p:nth-child(1){
+.course p:nth-child(1) {
   font-weight: 700;
-  font-size: 18px;  
+  font-size: 18px;
 }
 
-.plan-details{
+.plan-details {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 225px;
   border-radius: 10px;
-  border: 0.5px solid var(--ghost, #7A3199);
-  padding: 35px 27px;
-  gap: 24px;
+  border: 0.5px solid var(--ghost, #7a3199);
+  padding: 25px;
+  gap: 20px;
   text-align: left;
 }
 
-ul{
+ul {
   padding-left: 15px;
+}
+
+.body-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.body-three-toggle {
+  display: flex;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(154, 148, 148, 0.25);
+  padding: 6px 16px 6px 6px;
+  border-radius: 10px;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.body-three-toggle p {
+  padding: 3px 9px;
+  border-radius: 5px;
+  background: var(--light, rgba(225, 166, 255, 0.4));
+}
+
+.body-three-plan {
+  display: flex;
+  justify-content: space-between;
+  width: 965px;
+  margin: 0 150px;
+}
+
+.plan-head {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.plan-details h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--ghost, #7a3199);
+}
+
+.month {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.body-three-toggle p {
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+li {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.plan-button {
+  font-family: Poppins;
+  font-size: 12px;
+  color: var(--ghost, #7a3199);
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+  border: 0.5px solid var(--ghost, #7A3199);
+}
+
+.body-three-title {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 455px;
+}
+
+.plan-details:nth-child(2) {
+  background: var(--ghost, #7A3199);
+  color: var(--default-white, #FFF);
+}
+
+.plan-details:nth-child(2) h3{
+  color: #FFF;
 }
