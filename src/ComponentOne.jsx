@@ -1,14 +1,16 @@
-export function BodyOne() {
+export function ComponentOne() {
   return (
-    <div className="body-one">
+    <div className="component-one">
       <div className="marketing">
-        <h1>Learn how to launch a successful podcast</h1>
-        <p>
+        <h1 className="marketing-heading">
+          Learn how to launch a successful podcast
+        </h1>
+        <p className="marketing-para">
           Lorem Ipsum is simply dummy text of the printing and typesetting in
           ustry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s
         </p>
-        <button className="gradient-button">Sign up Now</button>
+        <button className="sign-up-button">Sign up Now</button>
       </div>
       <div className="images">
         <img

@@ -1,4 +1,4 @@
-export function BodyTwo() {
+export function ComponentTwo() {
   const course = [
     {
       heading: "Interactive Features",
@@ -22,20 +22,20 @@ export function BodyTwo() {
     },
   ];
   return (
-    <div className="body-two">
-      <div className="body-two-one">
+    <div className="component-two">
+      <div className="component-two-one">
         {course.map((data, index) => (
           <Course data={data} />
         ))}
       </div>
-      <div className="body-two-two">
-        <h1>About the course</h1>
-        <p>
+      <div className="component-two-two">
+        <h1 className="component-two-heading">About the course</h1>
+        <p className="component-two-para">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unkno
         </p>
-        <button className="gradient-button-two">Explore Now</button>
+        <button className="explore-button">Explore Now</button>
       </div>
     </div>
   );

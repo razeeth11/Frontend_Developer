@@ -2,7 +2,7 @@ export function CustomerReview() {
   return (
     <div className="customer-review">
       <div className="content-review">
-        <h1>Review from customers</h1>
+        <h1 className="comp-review-heading">Review from customers</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry
@@ -37,7 +37,7 @@ function CustomerReviewComponent() {
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make{" "}
+          scrambled it to make
         </p>
       </div>
     </div>
