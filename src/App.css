@@ -158,6 +158,19 @@ body {
   bottom: 20px;
 }
 
+.mic-comp{
+  position: absolute;
+  right: 0;
+  top: 450px;
+}
+
+.podcast img{
+  position: absolute;
+  z-index: -1;
+  top: 1125px;
+  width: 100%
+}
+
 .course p:nth-child(1) {
   font-weight: 700;
   font-size: 18px;
