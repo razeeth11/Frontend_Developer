@@ -331,16 +331,17 @@ li {
   margin: auto;
 }
 
-.footer-content p{
+.footer-content p {
   color: #4776e6;
 }
 
 .footer {
-  background-image: url('public/images/polygon-2.png');
+  background-image: url("public/images/polygon-2.png");
   background-size: cover;
+  padding-top: 80px;
 }
 
-.footer-button{
+.footer-button {
   font-size: 16px;
   font-family: Poppins;
   font-weight: 700;
@@ -352,13 +353,13 @@ li {
   border: none;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.footer-nav{
+.footer-nav {
   display: flex;
   justify-content: space-between;
   margin: 100px 150px 0 150px;
@@ -367,13 +368,14 @@ li {
   color: #fff;
 }
 
-.policy,.social{
+.policy,
+.social {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.image{
+.image {
   position: absolute;
   bottom: 0px;
   z-index: -2;
